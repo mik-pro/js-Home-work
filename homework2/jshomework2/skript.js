@@ -7,7 +7,7 @@ let isAlmaty = prompt("Сіз Алматыдан келдіңіз бе? (я не
 if (course == "1" || course == "2") { 
     if (isAlmaty == "no") { 
         alert("Сізге жатақханадан орын беріледі."); 
-    } else { 
+    } else if (condition) {
         alert("Сізге жатақхана берілмейді."); 
     } 
 } else { 
