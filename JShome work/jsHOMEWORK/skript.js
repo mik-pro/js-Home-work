@@ -1,24 +1,13 @@
-// бул типы string
-let name = "Miras"
-console.log("Аты: " + name+ "/ Типы :"+  typeof name);
-// бул типы number
-const yerth = 21
-
-console.log("Жасы: " + yerth+ "/Типы :"+ typeof yerth);
-
-// бул типы boolean
-let score = false
-if (true) {
-   let score = true
-   console.log("Студент пе?:" + score+ "/Типы: "+typeof score);
+let num = Number (prompt ('бірінші  санды енгізіңіз:')) // 5 санын жаздым 
+ 
+let num1 = Number (prompt ('екінші  санды енгізіңіз:')) // 10 санын жаздым 
    
-}
-
-// бул типы string
-var age = "Жасы"
-var age = "25"
-console.log("Жасы:"+  age+"/Типы:" + typeof age);
-
+let num2 = Number (prompt ('үшінші  санды енгізіңіз:')) // 15 санын жаздым 
+   
+ 
+var arifmetica = (num+num1+num2)/3 // жауабы 10 шығады 
+ 
+alert('ortasha mani: ' + arifmetica) // алерт арқылы жауабы шығады
 
 
 
