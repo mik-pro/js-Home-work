@@ -1,6 +1,4 @@
-// let age = 70;
-// let isStudent = false;
-// console.log("age<=65");
+
 let course = prompt("Курс нөмірін енгізіңіз (1, 2, 3 немесе 4):"); 
 let isAlmaty = prompt("Сіз Алматыдан келдіңіз бе? (я немесе жок)"); 
  
