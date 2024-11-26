@@ -1,14 +1,14 @@
-let pleyerPerson = ["Раналду","Зидан","Неймар","Бензема"];
-console.log(pleyerPerson);
-pleyerPerson[1] = "месси"
-pleyerPerson[4] = "Холанд"
-pleyerPerson[5] = "Какка"
-console.log(pleyerPerson);
-if (person.lenth>5) {
-    console.log(коп);
+let pleyer = ["Раналду","Зидан","Неймар","Бензема"];
+console.log(pleyer);
+pleyer[1] = "месси"
+pleyer[4] = "Холанд"
+pleyer[5] = "Какка"
+console.log(pleyer);
+if (pleyer.length>5) {
+    console.log("коп");
     
 }else{
-    console.log(аз);
+    console.log("аз");
     
 }
 
