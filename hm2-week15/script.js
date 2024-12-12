@@ -5,13 +5,11 @@ function buttonClick() {
 }
 function buttonClick1() {
     let batirma=document.querySelector('#qorap')
-    batirma.style.width="220px"
-   
+    batirma.style.width=parseInt(batirma.style.width)+10+'px'
 }
 function buttonClick2() {
     let batirma=document.querySelector('#qorap')
-    batirma.style.height="220px"
-   
+    batirma.style.height=parseInt(batirma.style.height)+10+'px'
 }
 let qoraps=document.querySelector('#qorap')
 qoraps.addEventListener("mouseenter",function () {
