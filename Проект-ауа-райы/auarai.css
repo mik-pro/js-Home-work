@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+
 header{
     background-color: black;
 }
@@ -52,105 +53,61 @@ a:hover{
 }
 
 
-  
-ww1{
-    background-color: azure;
+body {
+    background-color: #E8EEF1;
     text-align: center;
-    margin-right: 200px;
-   
 }
 
-ww{
-    font-family: Arial, sans-serif;
-    background-color: #eef3f7;
+header {
+    background-color: #2E3B4E;
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+}
+
+.weather-container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-right: 200px;
-   
-
+    margin: 20px;
+    gap: 20px;
 }
-.ww {
+
+.weather-card {
     background: white;
     padding: 20px;
     border-radius: 10px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
-.date {
-    color: #898484;
-    font-size: 14px;
+
+.weather-card h2 {
+    font-size: 22px;
 }
+
+.weather-card p {
+    margin: 5px 0;
+}
+
 .temperature {
-    font-size: 42px;
+    font-size: 32px;
     font-weight: bold;
 }
-.jambir{
-    font-size: 24px;
-    margin-right: 10px;
-}
-.detaly {
-    font-size: 16px;
-    color: #767676;
-}
-.text {
-    font-size: 12px;
-    color: #878585;
-}
 
-.kart{
-    
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.icon {
+    width: 50px;
+    vertical-align: middle;
 }
-/* .ww1{
-    background-color: azure;
-    text-align: center;
-    margin-right: 200px;
-   
+.lupa{
+width: 20px;
+position: relative;
+right:25px ;
+top: 3px;
+background-color: #01010100;
 }
+.searh{
+border-radius:2px solid rgb(0, 0, 0);
+background-color: #00000000;
+border-radius: 1px solid rgb(0, 0, 0);
 
-.ww{
-    font-family: Arial, sans-serif;
-    background-color: #eef3f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin-right: 200px;
-   
-
-} */
-.ww {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.date {
-    color: #898484;
-    font-size: 14px;
-}
-.temperature {
-    font-size: 42px;
-    font-weight: bold;
-}
-.jambir{
-    font-size: 24px;
-    margin-right: 10px;
-}
-.detaly {
-    font-size: 16px;
-    color: #767676;
-}
-.text {
-    font-size: 12px;
-    color: #878585;
 }
